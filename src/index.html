@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>TreeHouseProject</title>
+</head>
+<body>
+    <header id="header">
+        <h1>Daniel's Form Project</h1>
+        <span id="airplane">&#9992;</span> 
+    </header>
+    <main>
+        <button class="arrow"><a href="#header">&uArr;</a></button>
+        <h1>In order to take part in this event you will need to fill the following form</h1>
+        <hr>
+        
+        <form id="form" action="index.html" method="POST">
+            <fieldset>
+                <legend>Registration Information:</legend>
+                <hr>
+                <label for="text">Username:</label><br>
+                <input type="text" id="text" placeholder="enter a username"><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" placeholder="enter a valid email address"><br>
+                
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" placeholder="enter a password"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Personal Information (optional)</legend>
+                <hr>
+                <label for="address">Physical Address:</label><br>
+                <input type="text" id="address" placeholder="enter your physical address" ><br>
+                
+                <label for="phone">Phone number:</label><br>
+                <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" >
+            </fieldset>
+
+            <input type="submit" id="submission" value="Click to submit the form">
+        </form>
+    </main>
+    <footer>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            
+        
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

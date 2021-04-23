@@ -1,0 +1,233 @@
+/* ============= CSS Reset ============= */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #a2abb3;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ============= End of CSS Reset ============= */
+
+/* ============= Header ============= */
+
+header{
+    background-color: #3e474f;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    
+}
+
+
+header > h1{
+    margin: auto 30px;
+    font-size: 1.3rem;
+    display: inline-block;
+    width: 50%;
+}
+
+header > span{
+    margin: auto 0;
+    font-size: 50px;
+    transition: 7s;
+    transform: translateX(100%); 
+}
+
+
+
+
+
+/* ============= End Of Header ============= */
+
+
+/* ============= Main ============= */
+
+main{
+    margin: auto;
+    background-image: linear-gradient( #3e474f -10%, rgb(247, 241, 232) 60%);
+    flex: 1 0 auto;
+    padding: 60px 20px;
+    width: 80%;
+    border-radius:0 0 20px 20px;
+}
+
+main > h1{
+    font-size: 1.1rem;
+    font-style: italic;
+    color: white;
+}
+
+main > hr{
+    color: wheat;
+}
+
+
+/* ============= End Of Main ============= */
+
+
+/* ============= Form ============= */
+
+form{
+    margin: 40px auto 0 auto;
+    background-color: #a2abb3;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 14px;
+    box-shadow: 10px 10px 20px #3e474f;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+legend{
+    font-size: 17px;
+    font-style: italic;
+    
+}
+
+hr{
+    margin-bottom: 1em;
+}
+
+form > * {
+    margin-top: 8px;
+    margin-left: 5px;
+    width: 90%;
+}
+
+input{
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+    width: 70%;
+}
+
+input:focus{
+    background-color: wheat;
+}
+
+#submission{
+    width: 90%;
+    margin: 20px auto;
+}
+
+#submission:hover{
+    background-color: wheat;
+}
+
+
+/* ============= End Of Form ============= */
+
+
+/* ============= Footer ============= */
+
+footer{
+    background-color: #a2abb3;
+    flex-shrink: 0;
+    padding: 20px;
+    display: flex;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.fa{
+    background-color: CornflowerBlue;
+    padding: 20px;
+    color: white;
+    margin: 2px;
+    display: inline-block;
+}
+
+
+.arrow{
+    position: sticky;
+    top: 20px;
+    display: none;
+    background-color: rgb(5, 86, 235);
+    border: solid 1px CornflowerBlue;
+    font-size: 15px;
+    height: 40px;
+    padding: 0 12px;
+    border-radius: 50%;
+    margin-left: 90%;
+    margin-top: -40px;
+}
+
+
+.arrow > a{
+    color: white;
+}
+
+
+
+/* ============= End Of Footer ============= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
