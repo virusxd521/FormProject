@@ -72,8 +72,7 @@ header > h1{
 header > span{
     margin: auto 0;
     font-size: 50px;
-    transition: 7s;
-    transform: translateX(100%); 
+
 }
 
 
@@ -98,6 +97,8 @@ main > h1{
     font-size: 1.1rem;
     font-style: italic;
     color: white;
+    display: block;
+    
 }
 
 main > hr{
@@ -195,8 +196,16 @@ a{
     height: 40px;
     padding: 0 12px;
     border-radius: 50%;
-    margin-left: 90%;
-    margin-top: -40px;
+    float: right;
+    margin-right: -10%;
+    margin-top: 30px;
+    z-index: 1;
+
+    
+}
+
+.button_arrow{
+    display: none;
 }
 
 
@@ -209,25 +218,123 @@ a{
 /* ============= End Of Footer ============= */
 
 
+/* ============= 765 px ============= */
+
+@media (min-width: 765px){
+    /* ============= header ============= */
+
+    #airplane{
+        margin-left: 25%;
+        transition: 7s;
+        transform: translateX(100%); 
+    }
+
+  
+
+    /* ============= End Of header ============= */
+
+    /* ============= Form ============= */
+
+    form{
+        width: 50%;
+    }
+
+    input{
+        width: 90%;
+    }
+    
+
+    /* ============= End Of Form ============= */
+
+    Footer
+
+    /* ============= Footer ============= */
+
+    .fa{
+        margin: 4px;
+    }
+
+
+    .button_arrow{
+        top: 20px;
+        display: inline-block;
+        background-color: CornflowerBlue;
+        border: solid 1px CornflowerBlue;
+        font-size: 15px;
+        padding: 0 20px;
+        margin-left: 72%;
+        margin-top: 10px;
+    }
+
+    .button_arrow > a{
+        color: white;
+    }
+    
+
+    /* ============= End Of Footer ============= */
+
+}
 
 
 
+/* ============= 1440 px ============= */
+
+
+@media (min-width: 1440px){
+    /* ============= Header ============= */
+
+    header > h1{
+        font-size: 1.7rem;    
+    }
+
+    #airplane{
+        margin-left: 25%;
+        transition: 7s;
+        transform: translateX(570%); 
+    }
+
+/* ============= End Of Header ============= */
+
+
+/* ============= Main ============= */
+
+main > h1{
+    font-size: 1.5rem;
+}
+
+/* ============= End Of Main ============= */
+
+
+/* ============= Form ============= */
+    form{
+        width: 50%;  
+    }
+
+    legend{
+        font-size: 1.3rem;
+    }
+
+    label{
+        font-size: 1.2rem;
+    }
+
+    form > button{
+        padding: 5px 0;
+    }
+
+/* ============= End Of Form ============= */
+
+/* ============= Footer ============= */
+
+footer > .twitter{
+    margin-left: 70px;
+}
 
 
 
+/* ============= End Of Footer ============= */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+    
 
 
